@@ -1,3 +1,6 @@
 # All directories
 */
+!alacritty/
+!bspwm/
 !polybar/
+!sxhkd/
