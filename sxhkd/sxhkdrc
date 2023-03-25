@@ -127,3 +127,7 @@ super + {Left,Down,Up,Right}
 # alter system brightness
 super + {XF86MonBrightnessDown,XF86MonBrightnessUp} + {_,alt}
 	light -{U,A} {5,1}
+
+# alter speaker volume
+super + {equal,minus} + {_,shift}
+	pamixer -{i,d} {5,1}
