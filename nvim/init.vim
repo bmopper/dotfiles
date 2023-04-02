@@ -15,6 +15,19 @@ set conceallevel=1
 " line numbers
 set number
 
+" Gruvbox-material
+
+if has ('termguicolors')
+  set termguicolors
+endif
+
+let g:gruvbox_material_background = 'hard'
+let g:gruvbox_material_transparent_background = 1
+let g:gruvbox_material_ui_contrast = 'high'
+
+colorscheme gruvbox-material
+
+
 " VimTex
 
 " This is necessary for VimTeX to load properly. The "indent" is optional.
