@@ -1,10 +1,4 @@
 # All directories
 */
 !alacritty/
-!bspwm/
-!polybar/
-!sxhkd/
-!zathura/
-!nvim/
 !hypr/
-!eww/*
