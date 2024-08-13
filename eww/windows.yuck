@@ -1,9 +1,19 @@
-(defwindow bar
+; Windows
+
+(defwindow main
     :monitor 0
-    :geometry (geometry :width "100%"
-                        :anchor "bottom center"
+    :geometry (geometry :x "0%"
+    			:y "20px"
+			:width "25%"
+                        :anchor "bottom left"
                     )
-    :exclusive true
+    :stacking "bg"
     :namespace "eww"
-    (bar)
+    :focusable false
+    :wm-ignore true
+    (box :orientation "v" :space-evenly true :halign "center"
+        (clock)
+        (data)
+    )
 )
+

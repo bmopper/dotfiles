@@ -1,16 +1,13 @@
-; Imports are used to fragment bar into components.
-; IMPORTANT: Uses ttf-nerd-fonts-symbols
-(include "windows.yuck")
 (include "variables.yuck")
+(include "windows.yuck")
 
-; Modules
-(include "modules/bar.yuck")
-
-(include "modules/logo.yuck")
-(include "modules/workspaces.yuck")
-
-(include "modules/taskbar.yuck")
-
-(include "modules/indicator.yuck")
 
 (include "modules/clock.yuck")
+(include "modules/date.yuck")
+
+(include "modules/data.yuck")
+
+(include "modules/cpu.yuck")
+(include "modules/ram.yuck")
+(include "modules/temp.yuck")
+(include "modules/battery.yuck")

@@ -1,31 +1,10 @@
 * {
-    all: unset;
+    //all: unset;
     font-family: Hack;
 }
+
 @import "scss/colors.scss";
 @import "scss/lib.scss";
 
-@import "scss/bar.scss";
-//@import "scss/powermenu.scss";
-@import "scss/launcher.scss";
-
-//@import "scss/control_center.scss";
-//@import "scss/notifications_popup.scss";
-
-
-
-//@import "scss/language.scss";
-@import "scss/taskbar.scss";
 @import "scss/clock.scss";
-@import "scss/logo.scss";
-//@import "scss/quick_settings.scss";
-//@import "scss/user.scss";
-@import "scss/volume.scss";
-@import "scss/workspaces.scss";
-//@import "scss/tray.scss";
-//@import "scss/weather.scss";
-//@import "scss/music.scss";
-@import "scss/indicator.scss";
-//@import "scss/notifications.scss";
-//@import "scss/recorder_menu.scss";
-//@import "scss/picker.scss";
+@import "scss/data.scss";
