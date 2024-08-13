@@ -8,6 +8,7 @@
                        :thickness 15
                        :clockwise true
                        :start-at 75
+      ;(label :text {EWW_CPU})
       (label :text "")
     )
   )

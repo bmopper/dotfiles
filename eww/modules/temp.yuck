@@ -2,10 +2,11 @@
   (box :class "temp"
        :space-evenly true
     (circular-progress :class "thingy"
-                       :value {round(50, 0)}
+                       :value {round(EWW_TEMPS.CORETEMP_CORE_1, 0)}
                        :thickness 15
                        :clockwise true
                        :start-at 75
+      ;(label :text {EWW_TEMPS.CORETEMP_CORE_1})
       (label :text "")
     )
   )
