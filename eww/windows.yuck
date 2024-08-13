@@ -2,8 +2,8 @@
 
 (defwindow main
     :monitor 0
-    :geometry (geometry :x "0%"
-    			:y "20px"
+    :geometry (geometry :x "2.5%"
+    			:y "5%"
 			:width "25%"
                         :anchor "bottom left"
                     )
