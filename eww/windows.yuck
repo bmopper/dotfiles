@@ -2,9 +2,9 @@
 
 (defwindow main
     :monitor 0
-    :geometry (geometry :x "2.5%"
+    :geometry (geometry :x "3.5%"
     			:y "5%"
-			:width "25%"
+			:width "23%"
                         :anchor "bottom left"
                     )
     :stacking "bg"
