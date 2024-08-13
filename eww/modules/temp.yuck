@@ -1,0 +1,12 @@
+(defwidget temp []
+  (box :class "temp"
+       :space-evenly true
+    (circular-progress :class "thingy"
+                       :value {round(50, 0)}
+                       :thickness 15
+                       :clockwise true
+                       :start-at 75
+      (label :text "")
+    )
+  )
+)

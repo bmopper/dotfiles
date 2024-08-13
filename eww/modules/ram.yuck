@@ -1,0 +1,15 @@
+(defwidget ram []
+  (box :class "ram"
+       :space-evenly true
+       :height 20
+       :width 20
+    (circular-progress :class "thingy"
+                       :value {round((EWW_RAM/16000000), 0)}
+                       :thickness 15
+                       :clockwise true
+                       :start-at 75
+      (label :text "")
+    )
+  )
+)
+

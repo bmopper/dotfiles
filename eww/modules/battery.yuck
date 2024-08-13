@@ -1,0 +1,13 @@
+(defwidget battery []
+  (box :class "battery"
+       :space-evenly true
+    (circular-progress :class "thingy"
+      		       :value {round(EWW_BATTERY.BAT0.capacity, 0)}
+                       :thickness 15
+                       :clockwise true
+                       :start-at 75
+         ;(label :text "${EWW_BATTERY.BAT0.status == "Charging" ? ">:D" : "D:<"}")
+      (label :text {EWW_BATTERY.BAT0.status == "Charging" ? "" : EWW_BATTERY.BAT0.capacity > 90 ? "" : EWW_BATTERY.BAT0.capacity > 75 ? "" : EWW_BATTERY.BAT0.capacity > 50 ? "" : EWW_BATTERY.BAT0.capacity > 25 ? "" : ""})
+    )
+  )
+)

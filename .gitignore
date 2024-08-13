@@ -1,6 +1,7 @@
 # All directories
-*/
+/*
 !alacritty/
-!eww/*
+!eww/
+!eww/**
 !hypr/
 !nvim/

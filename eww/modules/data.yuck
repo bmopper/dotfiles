@@ -1,0 +1,7 @@
+(defwidget data []
+    (box :class "data" :orientation "h" :space-evenly true :height 75
+	(cpu)
+        (temp)
+	(battery)
+    )
+)
