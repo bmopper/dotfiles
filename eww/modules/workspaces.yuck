@@ -1,5 +1,11 @@
 (defwidget workspaces []
-    (box :class "workspaces"
-        (label :text "workspaces :(")
+    (eventbox :onscroll "bash ~/.config/eww/scripts/change-active-workspace.sh {} ${current_workspace}" :class "workspaces-widget"
+        (box :space-evenly false
+             :class "workspaces"
+            (label :text "${workspaces}${current_workspace}" :visible false)
+            (for workspace in workspaces
+                (label :class "icon" :text {workspace.id == current_workspace ? "" : "${workspace.windows > 0 ? "" : ""}"})
+            ) 
+        )
     )
 )
