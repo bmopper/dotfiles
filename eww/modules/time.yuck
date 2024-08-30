@@ -1,0 +1,7 @@
+(defwidget time []
+    (box :class "time"
+         :space-evenly true
+        (clock)
+        (date)
+    )
+)

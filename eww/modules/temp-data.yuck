@@ -1,0 +1,12 @@
+(defwidget temp-data []
+    (box :class "temp-data"
+         :space-evenly false
+        (label :text "")
+        (circular-progress :class "temp-circle"
+                           :value {round(EWW_TEMPS.CORETEMP_CORE_1, 0)}
+                           :thickness 8
+                           :clockwise true
+                           :start-at 75
+        )
+    )
+)

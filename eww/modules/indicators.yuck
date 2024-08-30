@@ -1,0 +1,6 @@
+(defwidget indicators []
+    (box :class "indicators" :orientation "h" :space-evenly true :height 25
+        (temp-data)
+        (battery-data)
+    )
+)

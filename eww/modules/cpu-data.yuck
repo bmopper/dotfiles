@@ -1,0 +1,12 @@
+(defwidget cpu-data []
+    (box :class "cpu-data"
+         :space-evenly false
+        (label :text "")
+        (circular-progress :class "thingy"
+                       :value {round(EWW_CPU.avg, 0)}
+                       :thickness 8
+                       :clockwise true
+                       :start-at 75
+        )
+    )
+)

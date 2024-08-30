@@ -1,9 +1,18 @@
 (include "variables.yuck")
 (include "windows.yuck")
 
+(include "modules/workspaces.yuck")
 
+(include "modules/time.yuck")
 (include "modules/clock.yuck")
 (include "modules/date.yuck")
+
+(include "modules/indicators.yuck")
+(include "modules/cpu-data.yuck")
+(include "modules/temp-data.yuck")
+(include "modules/battery-data.yuck")
+
+
 
 (include "modules/data.yuck")
 
